@@ -1,18 +1,18 @@
 import React from 'react';
 
-const PointsList = ({ points, onPointsChange }) => {
+const PointsListJson = ({ points, onPointsChange }) => {
   const handleTextAreaChange = (e) => {
     try {
       const parsedPoints = JSON.parse(e.target.value);
       onPointsChange(parsedPoints);
     } catch (error) {
-      alert('Invalid format! Please ensure the input is valid JSON.');
+      console.log('Invalid format! Please ensure the input is valid JSON.');
     }
   };
 
   return (
     <div className="points-list">
-      <p>Points of Interest:</p>
+      <p>Raw JSON:</p>
       <textarea
         value={JSON.stringify(points, null, 2)}
         onChange={handleTextAreaChange}
@@ -23,4 +23,4 @@ const PointsList = ({ points, onPointsChange }) => {
   );
 };
 
-export default PointsList;
+export default PointsListJson;
