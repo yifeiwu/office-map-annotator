@@ -1,8 +1,28 @@
-# React + Vite
+# Office Map Annotator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Create annotated maps for your indoor office or map layouts. Use in conjunction with Office Map Kiosk
 
-Currently, two official plugins are available:
+## Usage
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Gather the map(s) of your office. 
+2. Go to the app hosted here.
+3. Choose the map picture to annotate
+4. Add points of interest e.g. meeting room names, toilets, fire exits.
+5. Save the list of points of interest. 
+6. Use it with the companion app.
+
+
+## Development
+
+```js
+
+// Add dependencies
+npm install 
+
+// Run the dev server
+npm run dev 
+
+// Productionize
+npx vite build
+
+```
