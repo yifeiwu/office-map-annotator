@@ -7,7 +7,7 @@ import ReadOnlyViewer from './pages/ReadOnlyViewer.jsx'
 const router = createBrowserRouter([
   { path: '/', element: <App /> },
   { path: '/view', element: <ReadOnlyViewer /> },
-])
+], { basename: '/office-map-annotator' })
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
