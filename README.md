@@ -1,6 +1,6 @@
 # Office Map Annotator
 
-Create annotated maps for your indoor office or map layouts. 
+Create annotated maps for your indoor office or map layouts. [Try it!](https://yifeiwu.github.io/office-map-annotator/) 
 
 ![Preview](https://github.com/yifeiwu/office-map-annotator/blob/main/Screenshot%202025-08-28%20131737.png)
 
